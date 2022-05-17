@@ -1,6 +1,6 @@
 import parseYaml from '../yaml.ts';
 
-const data = parseYaml("src/data/northvsouth.yaml");
+const data = await parseYaml("src/data/northvsouth.yaml");
 const headers = { "Content-Type": "application/json" };
 
 export default async () => {
