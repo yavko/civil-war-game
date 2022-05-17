@@ -29,7 +29,7 @@ export default (props: { id: number; type: "embeded" | "page" }) => {
   return (
     <div>
       <Helmet>
-        <title>{"Civil War - " + titleCase(data?.[props.id]?.name)}</title>
+        <title>{"Civil War Explorer - " + titleCase(data?.[props.id]?.name)}</title>
       </Helmet>
       <span>
 				<span className={"name"} >{titleCase(data?.[props.id]?.name)}</span>

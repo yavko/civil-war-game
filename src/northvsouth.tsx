@@ -21,7 +21,7 @@ export default (props: { type: "embeded" | "page" }) => {
   return (
     <div>
       <Helmet>
-        <title>Civil War - North vs. South</title>
+        <title>Civil War Explorer - North vs. South</title>
       </Helmet>
       <span>
         <p>North Advantages</p>

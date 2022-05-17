@@ -19,7 +19,7 @@ const Ultra = ({ cache }: { cache: Cache }) => {
   return (
     <SWRConfig value={options(cache)}>
       <Helmet>
-        <title>Civil War Game</title>
+        <title>Civil War Explorer</title>
         <link rel="stylesheet" type="text/css" href="/api/css" />
         <link rel="preload" href="/api/css" as="style" />
       </Helmet>
