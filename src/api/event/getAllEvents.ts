@@ -1,9 +1,10 @@
 import { event } from "../../types.ts";
-import parseYaml from '../../yaml.ts';
+import * as YAML from "https://deno.land/std@0.139.0/encoding/yaml.ts";
+const file = await Deno.readTextFile("./src/data/events.yaml");
 
-const events = await parseYaml("src/data/events.yaml") as event[];
+const events = YAML.parse(file) as event[];
 const headers = { "Content-Type": "application/json" };
 
-export default async () => {
+export default () => {
   return new Response(JSON.stringify(events), { headers });
 };
