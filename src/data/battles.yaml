@@ -1,0 +1,82 @@
+- name: fort-sumter
+  type: battle
+  description: On April 12, 1861, Confederate forces attacked the military garrison at Fort Sumter, South Carolina, starting the United States Civil War.
+  imageUrl: https://upload.wikimedia.org/wikipedia/commons/d/d6/Attack_on_Fort_Sumter.jpg
+  union:
+    numbers: 80
+  confederacy:
+    numbers: 500
+  winner: confederacy
+  involved:
+    - robert-anderson
+    - p-g-t-beauregard
+
+- name: bull-run
+  type: battle
+  description: The first major battle of the civil war
+  imageUrl: https://upload.wikimedia.org/wikipedia/commons/a/a4/First_Battle_of_Bull_Run_Kurz_&_Allison_(cropped).jpg
+  union:
+    numbers: 28450
+  confederacy:
+    numbers: 32230
+  winner: confederacy
+  involved:
+    - winfield-scott
+    - irvin-mcdowell
+    - robert-patterson
+    - p-g-t-beauregard
+    - stonewall-jackson
+    - joseph-e-johnston
+
+- name: antietam
+  type: battle
+  description: Antietam, the deadliest one-day battle in American military history, showed that the Union could stand against the Confederate army in the Eastern theater.
+  imageUrl: https://upload.wikimedia.org/wikipedia/commons/4/4f/Battle_of_Antietam.png
+  union:
+    numbers: 87164
+  confederacy:
+    numbers: 38000
+  winner: union
+  involved:
+    - george-b-mcclellan
+    - robert-e-lee
+
+- name: gettysburg
+  type: battle
+  description: George Meade's Army defeated attacks by Robert E Lee's Army of Northern Virginia, halting his invasion of the North.
+  imageUrl: https://upload.wikimedia.org/wikipedia/commons/c/c7/Thure_de_Thulstrup_-_L._Prang_and_Co._-_Battle_of_Gettysburg_-_Restoration_by_Adam_Cuerden.jpg
+  union:
+    numbers: 104256
+  confederacy:
+    numbers: 71000
+  winner: union
+  involved:
+    - george-g-meade
+    - robert-e-lee
+
+- name: vicksburg
+  type: siege
+  description: The final major military action in the Vicksburg campaign of the Civil War
+  imageUrl: https://upload.wikimedia.org/wikipedia/commons/4/45/Battle_of_Vicksburg%2C_Kurz_and_Allison.png
+  union:
+    numbers: 77000
+  confederacy:
+    numbers: 33000
+  winner: union
+  involved:
+    - ulysses-s-grant
+    - john-v-pemberton
+
+- name: shermans-march-to-the-sea
+  type: campaign
+  description: It began with Shermans troops leaving the captured city of Atlanta on November 15 and ended with the capture of the port of Savannah on December 21
+  imageUrl: https://upload.wikimedia.org/wikipedia/commons/2/25/F.O.C._Darley_and_Alexander_Hay_Ritchie_-_Sherman%27s_March_to_the_Sea.jpg
+  union:
+    numbers: 62204
+  confederacy:
+    numbers: 12466
+  winner: union
+  involved:
+    - william-tecumseh-sherman
+    - william-hardee
+    - joseph-wheeler

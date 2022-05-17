@@ -1,0 +1,12 @@
+- name: emancipation-proclamation
+  description: Is a proclaimation that all slaves would be freed
+  imageUrl: https://upload.wikimedia.org/wikipedia/commons/e/e4/Emancipation_Proclamation_WDL2714.jpg
+  involved:
+    - abraham-lincon
+
+- name: gettysburg-address
+  description: Is a speech that Abraham Lincoln delivered, its one of the best known speeches in American history
+  imageUrl: https://upload.wikimedia.org/wikipedia/commons/1/10/Lincolnatgettysburg.jpg
+  involved:
+    - abraham-lincon
+

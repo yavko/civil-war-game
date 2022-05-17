@@ -1,0 +1,59 @@
+- name: advantages-and-disadvantages-of-north-and-south
+  type: northvsouth
+  id: 0
+
+- name: abraham-lincon
+  type: person
+  id: 0
+
+- name: fort-sumter
+  type: battle
+  id: 0
+
+- name: stonewall-jackson
+  type: person
+  id: 4
+
+- name: bull-run
+  type: battle
+  id: 1
+
+- name: robert-e-lee 
+  type: person
+  id: 5
+
+- name: george-b-mcclellan 
+  type: person
+  id: 6
+
+- name: antietam
+  type: battle
+  id: 2
+
+- name: emancipation-proclamation
+  type: event
+  id: 0
+
+- name: gettysburg
+  type: battle
+  id: 3
+
+- name: gettysburg-address
+  type: event
+  id: 1
+
+- name: ulysses-s-grant 
+  type: person
+  id: 3
+
+- name: vicksburg
+  type: battle
+  id: 4
+
+- name: william-tecumseh-sherman
+  type: person
+  id: 7
+
+- name: shermans-march-to-the-sea
+  type: battle
+  id: 5

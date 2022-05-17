@@ -1,0 +1,53 @@
+- name: abraham-lincon
+  who: American lawyer and statesman who served as the 16th president of the United States
+  role: The president of the Union
+  significance: Wanted slaves to be freed which was a big cause for the civil war, he is also known for issuing the emancipation proclaimation of 1863
+  imageUrl: https://upload.wikimedia.org/wikipedia/commons/a/ab/Abraham_Lincoln_O-77_matte_collodion_print.jpg
+
+- name: jefferson-davis
+  who: American politician who served as the president of the Confederate States from 1861 to 1865
+  role: President of the Confederacy
+  significance: Provider of supplies for Confederate Army
+  imageUrl: https://upload.wikimedia.org/wikipedia/commons/1/10/President-Jefferson-Davis.jpg
+
+- name: clara-barton
+  who: Hospital nurse in the American Civil War, a teacher, and a patent clerk
+  role: collecting medical supplies for the Union soldiers
+  significance: She founded the American Red Cross
+  imageUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Clara_Barton_by_Charles_R._B._Claflin%2C_front-_Original.tif/lossy-page1-773px-Clara_Barton_by_Charles_R._B._Claflin%2C_front-_Original.tif.jpg
+
+- name: ulysses-s-grant
+  who: American military officer and politician
+  role: 18th president of the United States from 1869 to 1877
+  significance: Secured victory for the Union
+  imageUrl: https://upload.wikimedia.org/wikipedia/commons/5/5c/Ulysses_S._Grant_1870-1880.jpg
+
+- name: stonewall-jackson
+  who: A soldier
+  role: A Confederate Army general
+  significance: Gained the Confederacy victory for many battles in the civil war
+  imageUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Stonewall_Jackson_by_HB_Hull%2C_1855.png/440px-Stonewall_Jackson_by_HB_Hull%2C_1855.png
+
+- name: robert-e-lee
+  who: A soldier
+  role: A Confederate Army general
+  significance: One of the most famous generals during the civil war
+  imageUrl: https://upload.wikimedia.org/wikipedia/commons/8/89/Robert_Edward_Lee.jpg
+
+- name: george-b-mcclellan
+  who: Governor, and General
+  role: General of the Union Army
+  significance: Popular Union general
+  imageUrl: https://upload.wikimedia.org/wikipedia/commons/4/4d/George_B_McClellan_-_retouched.jpg
+
+- name: william-tecumseh-sherman
+  who: soldier, businessman, educator, and author
+  role: General in the Union Army
+  significance: Popular Union general
+  imageUrl: https://upload.wikimedia.org/wikipedia/commons/4/49/General_William_T._Sherman_(4190887790)_(cropped).jpg
+
+- name: harriet-tubman
+  who: A former slave at the Maryland plantation
+  role: A cook, nurse, and spy for the Union
+  significance: Freed hundreds of slaves
+  imageUrl: https://upload.wikimedia.org/wikipedia/commons/e/e3/Harriet_Tubman_1895.jpg
