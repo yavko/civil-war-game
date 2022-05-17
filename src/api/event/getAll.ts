@@ -1,11 +1,7 @@
 import { event } from "../../types.ts";
-import { YamlLoader } from "yaml_loader";
-const yamlLoader = new YamlLoader();
-const cwd = Deno.cwd();
+import parseYaml from '../../yaml.ts';
 
-const events = await yamlLoader.parseFile(
-  cwd + "/src/data/events.yaml",
-) as event[];
+const events = parseYaml("src/data/events.yaml") as event[];
 const headers = { "Content-Type": "application/json" };
 
 export default async () => {

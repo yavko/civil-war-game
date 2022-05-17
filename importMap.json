@@ -7,8 +7,6 @@
 		"wouter": "https://esm.sh/wouter?deps=react@18",
 		"swr": "https://esm.sh/swr?deps=react@18",
 		"ultra/cache": "https://deno.land/x/ultra@v1.0.1/cache.js",
-		"app": "./src/app.tsx",
-		"yaml_loader": "https://deno.land/x/yaml_loader/mod.ts",
-		"ultra/types": "https://deno.land/x/ultra@v1.0.1/src/types.ts"
+		"app": "./src/app.tsx"
 	}
 }

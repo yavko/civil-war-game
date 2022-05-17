@@ -1,8 +1,6 @@
-import { YamlLoader } from "yaml_loader";
-const yamlLoader = new YamlLoader();
-const cwd = Deno.cwd();
+import parseYaml from '../yaml.ts';
 
-const data = await yamlLoader.parseFile(cwd + "/src/data/northvsouth.yaml");
+const data = parseYaml("src/data/northvsouth.yaml");
 const headers = { "Content-Type": "application/json" };
 
 export default async () => {

@@ -3,7 +3,7 @@ import { SWRConfig } from "swr";
 import { Helmet } from "react-helmet";
 import { Link, Route, Switch } from "wouter";
 import ultraCache from "ultra/cache";
-import { Cache } from "https://deno.land/x/ultra/src/types.ts";
+import { Cache } from "https://deno.land/x/ultra@v1.0.1/src/types.ts";
 import Battle from "./battle.tsx";
 import Person from "./person.tsx";
 import NvS from "./northvsouth.tsx";
@@ -25,7 +25,7 @@ const Ultra = ({ cache }: { cache: Cache }) => {
       </Helmet>
       <main>
         <header>
-          <h1>Civil war explorer</h1>
+          <h1><Link href="/" >Civil war explorer</Link></h1>
         </header>
         <Switch>
           <Route path="/">
@@ -119,6 +119,7 @@ const Ultra = ({ cache }: { cache: Cache }) => {
             </Link>
           </Route>
         </Switch>
+				<br />
         <footer>
           All information and images were provided by wikipedia and its
           contributors

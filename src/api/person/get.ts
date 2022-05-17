@@ -1,8 +1,7 @@
 import { person } from "../../types.ts";
-import { YamlLoader } from "yaml_loader";
-const yamlLoader = new YamlLoader();
+import parseYaml from '../../yaml.ts';
 
-const people = await yamlLoader.parseFile("../../data/people.yaml") as person[];
+const people = parseYaml("../../data/people.yaml") as person[];
 const headers = { "Content-Type": "application/json" };
 
 export default async (name: string) => {

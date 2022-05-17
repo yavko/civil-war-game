@@ -27,6 +27,6 @@ jobs:
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: react-18
+          project: civil-war
           entrypoint: ULTRA.js
           root: .ultra

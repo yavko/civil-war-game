@@ -3,13 +3,18 @@
 @import url("https://unpkg.com/open-props");
 
 :root {
-				color-scheme: dark light;
+	color-scheme: dark light;
+}
+
+h1 > a {
+	text-decoration: none;
+	color: white;
 }
 
 body {
-				font-family: var(--font-sans);
-				font-size: 16px;
-				line-height: 1.5;
+	font-family: var(--font-sans);
+	font-size: 16px;
+	line-height: 1.5;
 } 
 
 footer {
@@ -18,14 +23,14 @@ footer {
 }
 
 ul {
-				display: table;
+	display: table;
 }
 
 img {
-				max-width: 80%;
+	max-width: 80%;
 }
 
 .name {
-				font-size: 1.5em;
-				font-weight: bold;
+	font-size: 1.5em;
+	font-weight: bold;
 }
