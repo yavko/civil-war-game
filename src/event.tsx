@@ -62,7 +62,7 @@ export default (props: { id: number; type: "embeded" | "page" }) => {
 };
 
 export const fetcher = async () => {
-  const response = await fetch("/api/event/getAll");
+  const response = await fetch("/api/event/getAllEvents");
   const data = await response.json();
   return data;
 };

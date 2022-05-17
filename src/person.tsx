@@ -54,7 +54,7 @@ export default (props: { id: number; type: "embeded" | "page" }) => {
 };
 
 export const fetcher = async () => {
-  const response = await fetch("/api/person/getAll");
+  const response = await fetch("/api/person/getAllPeople");
   const data = await response.json();
   return data;
 };

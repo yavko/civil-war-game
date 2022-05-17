@@ -39,7 +39,9 @@ export default (props: { id: number; type: "embeded" | "page" }) => {
   return (
     <div>
       <Helmet>
-        <title>{"Civil War Explorer - " + titleCase(data?.[props.id]?.name)}</title>
+        <title>
+          {"Civil War Explorer - " + titleCase(data?.[props.id]?.name)}
+        </title>
       </Helmet>
       <span>
         <br />
@@ -67,7 +69,7 @@ export default (props: { id: number; type: "embeded" | "page" }) => {
 };
 
 export const fetcher = async () => {
-  const response = await fetch("/api/battle/getAll");
+  const response = await fetch("/api/battle/getAllBattles");
   const data = await response.json();
   return data;
 };

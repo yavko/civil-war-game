@@ -57,20 +57,20 @@ const Ultra = ({ cache }: { cache: Cache }) => {
               <ul>
                 <li>
                   To get all battles:&nbsp;
-                  <Link href="/api/battle/getAll">
-                    /api/battle/getAll
+                  <Link href="/api/battle/getAllBattles">
+                    /api/battle/getAllBattles
                   </Link>
                 </li>
                 <li>
                   To get all people:&nbsp;
-                  <Link href="/api/person/getAll">
-                    /api/person/getAll
+                  <Link href="/api/person/getAllPeople">
+                    /api/person/getAllPeople
                   </Link>
                 </li>
                 <li>
                   To get all items im chronological order:&nbsp;
-                  <Link href="/api/timeline/getAll">
-                    /api/timeline/getAll
+                  <Link href="/api/timeline/getTimeline">
+                    /api/timeline/getTimeline
                   </Link>
                 </li>
                 <li>
@@ -81,14 +81,14 @@ const Ultra = ({ cache }: { cache: Cache }) => {
                 </li>
                 <li>
                   To get a battle by name:&nbsp;
-                  <Link href="/api/battle/get">
-                    /api/battle/get
+                  <Link href="/api/battle/getBattle">
+                    /api/battle/getBattle
                   </Link>
                 </li>
                 <li>
                   To get a person by name:&nbsp;
-                  <Link href="/api/person/get">
-                    /api/battle/get
+                  <Link href="/api/person/getPerson">
+                    /api/person/getPerson
                   </Link>
                 </li>
               </ul>

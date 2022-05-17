@@ -54,7 +54,7 @@ export default (props: { id: number; type: "page" | "embeded" }) => {
 };
 
 export const fetcher = async () => {
-  const res = await fetch("/api/timeline/getAll");
+  const res = await fetch("/api/timeline/getTimeline");
   const data = await res.json();
   return data;
 };
