@@ -1,0 +1,32 @@
+name: deploy
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+
+jobs:
+  deploy:
+    name: deploy
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: read
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v2
+
+      - name: Install Deno
+        uses: denoland/setup-deno@main
+        with:
+          deno-version: 1.21.3
+
+      - name: Build site
+        run: root=https://civil-war.deno.dev deno run -A https://deno.land/x/ultra@v1.0.1/build.ts
+
+      - name: Upload to Deno Deploy
+        uses: denoland/deployctl@v1
+        with:
+          project: react-18
+          entrypoint: ULTRA.js
+          root: .ultra
